@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Pokedex",
+    "name": "Pokedex Build Version",
     "slug": "Pokedex",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,16 +12,25 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bardanp.Pokedex"
     },
     "android": {
       "adaptiveIcon": {
+        "buildNumber": 1,
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bardanp.Pokedex"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8d10c95a-e313-45d6-855e-69a35ccb0363"
+      }
     }
   }
 }
